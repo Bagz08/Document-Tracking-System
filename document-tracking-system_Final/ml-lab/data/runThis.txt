@@ -1,0 +1,6 @@
+
+# To check the count of each subcategory
+import pandas as pd
+df = pd.read_csv("data/documents_balanced.csv")
+print(df["subcategory"].value_counts().head(20))
+
